@@ -1,4 +1,4 @@
-**HOME SALE- Challenge-22 **
+HOME SALE- CHALLENGE-22 
 
 With the use of SparkSQL to determine key metrics about home sales data in this project. There is also use of Spark to create temporary 
 table as well as verify that the table has been uncached. 
@@ -17,9 +17,10 @@ Analysis:
 5. Analysed the query's runtime and round the result to two decimal places. 
 
 Summary: 
-Cach the home_sales temporary table and verify its cached status. Use the cached data to rerun the query for the average home price per "view" rating
-(Where the price is $350,000 or more) and compare its runtime to the uncached version. Partition the formatted parquet home sales data by date_built, create a temporary 
-table from it, and rerun the same query, again comparing runtimes. Finally, uncache the home_sales table and confirm it has been successfully uncached. 
+ Cach the home_sales temporary table and verify its cached status. Use the cached data to rerun the query for the average 
+ home price per "view" rating (Where the price is $350,000 or more) and compare its runtime to the uncached version. 
+ Partition the formatted parquet home sales data by date_built, create a temporary table from it, and rerun the same query, 
+ again comparing runtimes. Finally, uncache the home_sales table and confirm it has been successfully uncached. 
 
 Reference: 
 
